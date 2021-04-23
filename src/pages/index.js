@@ -51,7 +51,7 @@ render={data => (
                   data-item-price={product.price}
                   data-item-image={product.image.url}
                   data-item-name={product.name}
-                  data-item-url={`http://localhost:8000`}
+                  data-item-url={`https://compassionate-swartz-62ff90.netlify.app/`}
                 >
                   Add to cart
                 </button>
