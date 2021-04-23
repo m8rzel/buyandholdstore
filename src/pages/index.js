@@ -51,7 +51,7 @@ render={data => (
                   data-item-price={product.price}
                   data-item-image={product.image.url}
                   data-item-name={product.name}
-                  data-item-url={`/`}
+                  data-item-url={`http://localhost:8000`}
                 >
                   Add to cart
                 </button>
