@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Layout from "../layouts/index"
 import Img from 'gatsby-image'
 
+
 export default () => (
   <StaticQuery
     query={graphql`
@@ -51,7 +52,7 @@ render={data => (
                   data-item-price={product.price}
                   data-item-image={product.image.url}
                   data-item-name={product.name}
-                  data-item-url={`https://compassionate-swartz-62ff90.netlify.app/`}
+                  data-item-url={`https://buyandholdstore.netlify.app/`}
                 >
                   Add to cart
                 </button>

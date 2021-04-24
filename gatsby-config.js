@@ -13,6 +13,12 @@ module.exports = {
         apiToken: '049931c49ba3e6451111d3fdfaa500' 
       },
     },
+    /*{
+			resolve: 'gatsby-plugin-snipcart',
+			options: {
+				apiKey: 'YjgwODhkMzEtOWU2YS00ZjdlLThkNTEtZDNhNjZmMDIwMjVlNjM3NTQ2MTQyNjkzNjQwNzI1'
+			}
+		},*/
     
     {
       resolve: `gatsby-plugin-snipcart-advanced`,
